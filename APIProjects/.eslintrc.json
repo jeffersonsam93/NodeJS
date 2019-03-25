@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+    "import"
+  ],
+  "rules": {
+    "no-console":0,
+    "arrow-body-style": "off",
+     "linebreak-style": [
+      "error",
+      "windows"
+      ]
+  },
+  "globals": {
+    "it": false,
+    "describe": false,
+    "beforeEach": false,
+    "afterEach": false
+  }
+}

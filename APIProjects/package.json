@@ -1,0 +1,55 @@
+{
+  "name": "rad2",
+  "version": "1.0.0",
+  "description": "rad2",
+  "main": "index.js",
+  "scripts": {
+    "api": "node app/server.js",
+    "approve": "node app2/approve.js",
+    "start": "node app/server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "chai": "^3.5.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "avsc": "^5.0.2",
+    "bluebird": "^3.4.7",
+    "chai-http": "^3.0.0",
+    "convict": "^2.0.0",
+    "create-react-app": "^1.4.3",
+    "eslint-config-airbnb-standard": "^1.6.5",
+    "express": "^4.14.0",
+    "mssql": "^3.3.0",
+    "node-windows": "^0.1.14",
+    "redis": "^2.6.3",
+    "request": "^2.79.0",
+    "request-response": "^0.1.2",
+    "response-time": "^2.3.2",
+    "sinon": "^1.17.6",
+    "traceback": "^0.3.1",
+    "uuid": "^3.1.0",
+    "winston": "^2.3.0"
+  },
+  "eslintConfig": {
+    "globals": {
+      "console": true,
+      "process": true
+    },
+    "env": {
+      "node": true
+    }
+  }
+}
