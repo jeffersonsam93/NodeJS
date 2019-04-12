@@ -1,0 +1,29 @@
+
+-- Create a new project
+react-native init awesomeProject
+
+-- Run on a specific port
+react-native run-android --port 8089
+
+
+adb kill-server
+adb start-server
+adb devices
+
+Setup
+
+Create local.properties inside android and write
+
+sdk.dir = D:\\Downloads
+
+in gradle.properties inside android folder write the below lines
+
+org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_161
+
+
+Important guidelines
+delete node modules & build folder in case of error
+
+Clean
+
+cd android && ./gradlew clean
